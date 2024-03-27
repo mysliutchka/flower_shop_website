@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us page</title>
+    <link rel="stylesheet" href="/css/contact_us.css">
+</head>
+
+<body>
+    <header> 
+        <nav class="navigation">
+            <div class="logo">
+                <img src="/image/logo_without_name.png" class="logo" alt="Logo & Name">
+                <p>Blossomique</p>
+            </div>
+            <div class="pages">
+                <div class="dropdown">
+                    <a href="/html/index.html">Home</a>
+                    <div class="dropdown-content">
+                        <a href="#our-advantages">Our advantages</a>
+                        <a href="#categories">Categories</a>
+                        <a href="#order-custom-bouquet">Order custom bouquet</a>
+                        <a href="#">Popular choices</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="">Catalogue</a>
+                    <div class="dropdown-content">
+                        <a href="#">Categories</a>
+                        <a href="#">Flower types</a>
+                        <a href="#">Bouquet Sizes</a>
+                        <a href="#">Wedding & Events</a>
+                        <a href="#">Friendship & Romance</a>
+                        <a href="#">Funeral & Syphathy</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="">Delivery</a>
+                    <div class="dropdown-content">
+                        <a href="#">Pick up</a>
+                        <a href="#">Fast delivery</a>
+                        <a href="#">Specific time delivery</a>
+                        <a href="#">Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="/html/blog.html">Blog</a>
+                    <div class="dropdown-content">
+                        <a href="#">Tips & Tricks</a>
+                        <a href="#">Video tutorials</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="">Gallery</a>
+                    <div class="dropdown-content">
+                        <a href="#">Flowers</a>
+                        <a href="#">Team</a>
+                        <a href="#">Location</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="/html/contact_us.html">Contact us</a>
+                    <!-- <div class="dropdown-content">
+                        <a href="#">Custom bouquet form</a>
+                        <a href="#">Feedback form</a>
+                    </div> -->
+                </div>
+            </div>
+            <a href="" class="cart-icon"><img src="/image/cart_icon.png" alt="Cart"></a>
+            <a href="" class="profile-icon"><img src="/image/profile_icon.png" alt="Profile"></a>
+            <!-- <a href="" class="burger-menu-icon"><img src="/image/burger_menu.png" class="burger-menu-icon" alt="Burger menu"></a> -->
+            <div class="off-screen-menu">
+                <ul class="ham-ul">
+                    <li><a href="/html/index.html">Home</a></li>
+                    <li><a href="#">Catalogue</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="/html/blog.html">Blog</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="/html/contact_us.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="ham-menu-nav">
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <script src="/js/ham.js"></script>
+        </nav>
+    </header>
+    <main>
+        <section class="form-section">
+            <div class="form-container">
+                <p>Let us bring happiness even better by giving us feedback. Leave complaints/ suggestions/ questions/ anything else in the form below.</p>
+                <div class="container">
+                    <form action="">
+                        <h3>Contact us</h3>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">First Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Last Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="email" id="email" name="email" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="phone">Phone</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="col-75">
+                                <select id="subject" name="subject">
+                                    <option value="inquiry">General Inquiry</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="complaint">Complaint</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="message">Message</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="message" name="message" placeholder="Write your message here..." style="height:200px"></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="submit-row">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+         <div class="blossomique-follow-container">
+             <div class="footer-blossomique">
+                 <h3>
+                     Blossomique
+                 </h3>
+                 <p>Blossom with Blossomique</p>
+             </div>
+             <div class="follow-us">
+                 <h4>Follow us</h4>
+                 <div class="social-media">
+                     <img src="/image/instagram.png" alt="Instagram">
+                     <img src="/image/facebook.png" alt="Facebook">
+                     <img src="/image/tik_tok.png" alt="Tik tok">
+                 </div>
+             </div>
+         </div>
+        </div>
+        <div class="links-container">
+         <div class="links-title">
+             <img src="/image/links_icon.png" alt="links_icon" class="footer-icon">
+             <h4>Links</h4>
+         </div>
+             <a href="Home">Home</a>
+             <a href="Delivery">Delivery</a>
+             <a href="Blog">Blog</a>
+             <a href="Gallery">Gallery</a>
+             <a href="Gallery">Contact us</a>
+        </div>
+         <div class="contact-us-container">
+             <div class="contact-us-title">
+                 <img src="/image/contact_us_icon.png" alt="contact_us_icon" class="footer-icon">
+                 <h4>Contact us</h4>
+             </div>
+             <p>blossomique@gmail.com</p>
+             <p>+3806677777</p>
+             <p>Chat with us via social media</p>
+         </div>
+         <div class="location-container">
+             <div class="location-title">
+                 <img src="/image/location_icon.png" alt="location_icon" class="footer-icon">
+                 <h4>Location</h4>
+             </div>
+             <p>
+                 Bloomsbury Avenue, Floral Haven, Garden Grove, FL 34567
+             </p>
+        </div>
+     </footer>
+</body>
+</html>
