@@ -81,15 +81,15 @@ header{
 }
 .cart-icon:hover{
     transform: scale(0.7);
-    content: url(/image/cart_icon_hoover.png);
+    content: url(./image/cart_icon_hoover.png);
 }
 .profile-icon:hover {
     transform: scale(0.7);
-    content:  url(/image/profile_icon_hoover.png);
+    content:  url(./image/profile_icon_hoover.png);
 }
 .burger-menu-icon:hover{
     transform: scale(0.7);
-    content:  url(/image/burger_menu_hoover.png);
+    content:  url(./image/burger_menu_hoover.png);
 }
 /* .burger-menu-icon{
     display: none;
